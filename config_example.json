@@ -1,0 +1,16 @@
+{
+    "export":{
+        "user_agent":"",
+        "client_id":"",
+        "client_secret":"",
+        "password":"",
+        "username":""
+    },
+    "update":{
+        "user_agent":"",
+        "client_id":"",
+        "client_secret":"",
+        "password":"",
+        "username":""
+    }
+}
