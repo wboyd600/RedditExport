@@ -2,7 +2,7 @@ import praw
 
 
 class RedditExporter:
-    def __init__(self, user_agent, client_id, client_secret, username, password):
+    def __init__(self, client_id, client_secret, password, user_agent, username):
         self.reddit = praw.Reddit(
             client_id=client_id,
             client_secret=client_secret,
@@ -19,7 +19,6 @@ class RedditExporter:
         for s in subscribed_subreddits:
             f.write(s.display_name + '\n')
         f.close()
-
 
 #
 # exporter = RedditExporter(user_agent, client_id, client_secret, username, password)
